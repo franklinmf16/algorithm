@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41ca6af6-a22e-4757-b660-45925dc3fe74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/interviewadv/ExecutorTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewadv/statepattern/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewadv/statepattern/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewadv/statepattern/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewadv/statepattern/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewadv/statepattern/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/No283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/No343.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/No70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/No70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/No27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/No27.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,24 +29,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="java" value="36" />
+          <entry key="java" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="37" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="23" />
-          <entry key="java" value="9419" />
+          <entry key="java" value="9862" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9419" />
+          <entry key="JAVA" value="9862" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -63,14 +54,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/No283.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="710">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/No27.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -123,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/interviewadv/statepattern/Test.java" />
         <option value="$PROJECT_DIR$/src/interviewadv/ExecutorTester.java" />
         <option value="$PROJECT_DIR$/src/leetcode/No283.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/No27.java" />
       </list>
     </option>
   </component>
@@ -194,7 +195,7 @@
     <property name="SearchEverywhereHistoryKey" value="call&#9;PSI&#9;JAVA://java.util.concurrent.Callable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540273519473" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540277711160" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -221,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.No283">
+  <component name="RunManager" selected="Application.No27">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.BinarySearch" />
       <module name="recrusion" />
@@ -235,8 +236,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="No120" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.No120" />
+    <configuration name="No121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.No121" />
       <module name="recrusion" />
       <extension name="coverage">
         <pattern>
@@ -248,8 +249,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="No121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.No121" />
+    <configuration name="No27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.No27" />
       <module name="recrusion" />
       <extension name="coverage">
         <pattern>
@@ -288,19 +289,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.No120" />
       <item itemvalue="Application.No121" />
       <item itemvalue="Application.No343" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.No283" />
+      <item itemvalue="Application.No27" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No27" />
         <item itemvalue="Application.No283" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.No343" />
         <item itemvalue="Application.No121" />
-        <item itemvalue="Application.No120" />
       </list>
     </recent_temporary>
   </component>
@@ -322,16 +323,15 @@
       <workItem from="1539815433235" duration="12635000" />
       <workItem from="1540167293181" duration="131000" />
       <workItem from="1540167442372" duration="2230000" />
-      <workItem from="1540248725628" duration="6587000" />
+      <workItem from="1540248725628" duration="9255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61476000" />
+    <option name="totallyTimeSpent" value="64144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1347" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49361703" visible="true" weight="0.20193861" />
       <window_info id="Structure" order="1" sideWeight="0.506383" side_tool="true" visible="true" weight="0.20193861" />
@@ -657,11 +657,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/No283.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="710">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/No27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
