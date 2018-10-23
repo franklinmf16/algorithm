@@ -4,36 +4,35 @@ import java.util.HashMap;
 
 public class No70 {
 
-    public int solution(int n){
+    public int solution(int n) {
 
         HashMap<Integer, Integer> memo = new HashMap<>();
 
 
-
-        if (n == 1){
+        if (n == 1) {
             return 1;
         }
 
-        if (n == 2){
+        if (n == 2) {
             return 2;
         }
 
-        if (memo.get(n) == null){
-            memo.put(n, solution(n - 1) + solution( n - 2) );
+        if (memo.get(n) == null) {
+            memo.put(n, solution(n - 1) + solution(n - 2));
         }
 
         return memo.get(n);
 
     }
 
-    public int solutionTwo (int n){
+    public int solutionTwo(int n) {
 
         HashMap<Integer, Integer> memo = new HashMap<>();
-        memo.put(1,1);
-        memo.put(2,2);
+        memo.put(1, 1);
+        memo.put(2, 2);
 
         for (int i = 3; i <= n; i++) {
-            memo.put(i,memo.get(i - 1) + memo.get(i - 2));
+            memo.put(i, memo.get(i - 1) + memo.get(i - 2));
         }
 
         return memo.get(n);
@@ -52,7 +51,6 @@ public class No70 {
         }
         return second;
     }
-
 
 
     public static void main(String[] args) {
